@@ -3,4 +3,4 @@ Terraform Module for creating an ECS cluster and auto-scaling group that scales 
 for the cluster. 
 
 ## Docs
-https://registry.terraform.io/modules/silinternational/ecs-asg/aws
+https://registry.terraform.io/modules/sil-org/ecs-asg/aws
