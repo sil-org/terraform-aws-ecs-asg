@@ -152,12 +152,6 @@ variable "cluster_name" {}
 
 // Optional:
 
-variable "use_amazon_linux2023" {
-  description = "Use Amazon Linux 2023 AMI"
-  type        = bool
-  default     = true
-}
-
 variable "ecsInstanceRoleAssumeRolePolicy" {
   type = string
 

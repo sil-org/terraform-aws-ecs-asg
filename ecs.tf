@@ -7,7 +7,7 @@ data "aws_ami" "ecs_ami" {
 
   filter {
     name   = "name"
-    values = var.use_amazon_linux2023 ? ["al2023-ami-ecs-hvm-*-kernel-6.1-x86_64"] : ["amzn2-ami-ecs-hvm-2.0.*-x86_64-ebs"]
+    values = ["al2023-ami-ecs-hvm-*-kernel-6.1-x86_64"]
   }
 }
 
